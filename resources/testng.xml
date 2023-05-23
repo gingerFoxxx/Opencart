@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" " parallel="tests" thread-count="1">
+    <test name="SearchTests">
+        <parameter name="Info:" value="Form autocomplete validation"/>
+        <classes>
+            <class name="search.SearchTests">
+            <methods>
+                <include name="positive"/>
+                <exclude name="negative" />
+            </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
