@@ -1,7 +1,7 @@
 # Opencart
 Web UI Test Automation Framework from Scratch using Page Object Model.
 
-Tech stack: Javaб Selenium Web Driver, TestNG, Maven.
+Tech stack: Java, Selenium Web Driver, TestNG, Maven.
 
 Website: http://opencart.abstracta.us/
 
